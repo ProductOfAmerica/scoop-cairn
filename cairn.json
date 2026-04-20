@@ -1,26 +1,15 @@
 {
-  "version": "0.3.0",
-  "description": "Verification substrate for AI coding agents — durable memory, append-only verdicts, content-addressed evidence, safe concurrency.",
-  "homepage": "https://github.com/ProductOfAmerica/cairn",
-  "license": "MIT",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/ProductOfAmerica/cairn/releases/download/v0.3.0/cairn_0.3.0_windows_amd64.zip",
-      "hash": "eefbaea698e550cd1de3ccbf3265601a20d8493354021632b021e8f4062233a2",
-      "bin": "cairn.exe"
-    }
-  },
-  "checkver": {
-    "github": "https://github.com/ProductOfAmerica/cairn"
-  },
-  "autoupdate": {
+    "version": "0.4.1",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/ProductOfAmerica/cairn/releases/download/v$version/cairn_$version_windows_amd64.zip"
-      }
+        "64bit": {
+            "url": "https://github.com/ProductOfAmerica/cairn/releases/download/v0.4.1/cairn_0.4.1_windows_amd64.zip",
+            "bin": [
+                "cairn.exe"
+            ],
+            "hash": "7898576245de8c8eca0aa941f54276c5a205aecce812bd25d69e0fe116050b29"
+        }
     },
-    "hash": {
-      "url": "$baseurl/checksums.txt"
-    }
-  }
+    "homepage": "https://github.com/ProductOfAmerica/cairn",
+    "license": "MIT",
+    "description": "Verification substrate for AI coding agents — durable memory, append-only verdicts, content-addressed evidence, safe concurrency."
 }
