@@ -1,12 +1,12 @@
 {
-    "version": "0.4.1",
+    "version": "0.5.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ProductOfAmerica/cairn/releases/download/v0.4.1/cairn_0.4.1_windows_amd64.zip",
+            "url": "https://github.com/ProductOfAmerica/cairn/releases/download/v0.5.0/cairn_0.5.0_windows_amd64.zip",
             "bin": [
                 "cairn.exe"
             ],
-            "hash": "7898576245de8c8eca0aa941f54276c5a205aecce812bd25d69e0fe116050b29"
+            "hash": "f57571100a9454a922f798a93663ba56dc4b3ede1d4e50a950f9cb3817d2f3d6"
         }
     },
     "homepage": "https://github.com/ProductOfAmerica/cairn",
